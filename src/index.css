@@ -7,6 +7,7 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
+  overflow-x: hidden;
 }
 
 /* Header styles */
@@ -15,6 +16,7 @@ html {
   line-height: 5.7rem;
   margin-left: 3.787rem;
   letter-spacing: 0.48rem;
+  font-weight: normal;
 }
 
 header {
@@ -90,6 +92,7 @@ header {
   width: 82rem;
   margin-top: 3.2rem;
   margin-bottom: 4.3rem;
+  font-weight: normal;
 }
 
 .hero button {
@@ -101,4 +104,75 @@ header {
   letter-spacing: 0.23rem;
   width: 28.4rem;
   height: 7.9rem;
+  font-weight: bold;
+}
+
+/* Red Section styles */
+.redSection {
+  height: 100vh;
+  width: 100vw;
+  background-color: #D34848;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 18.4rem;
+  position: relative;
+}
+
+.redSection h2 {
+  font-size: 7.4rem;
+  color: white;
+  letter-spacing: 0.74rem;
+}
+
+.redSection h3 {
+  font-size: 5.1rem;
+  font-weight: normal;
+  letter-spacing: 0.51rem;
+  line-height: 6.1rem;
+  width: 87.9rem;
+  margin-top: 2.7rem;
+  margin-bottom: 4.1rem;
+}
+
+.seeDemo {
+  background-color: white;
+  width: 33.8rem;
+  height: 8.1rem;
+  border: none;
+  border-radius: 7.9rem;
+  color: #D1346E;
+  font-size: 2.3rem;
+  font-weight: bold;
+  letter-spacing: 0.23rem;
+}
+
+.redSection .tryNow {
+  width: 24.8rem;
+  height: 6.2rem;
+  border-radius: 7.9rem;
+  border: none;
+  background-color: white;
+  color: #D1346E;
+  font-size: 1.8rem;
+  letter-spacing: 0.18rem;
+  font-weight: bold;
+  position: absolute;
+  top: 9.5rem;
+  right: 7.9rem;
+}
+
+.speaker1, .speaker2 {
+  width: 25.4rem;
+  position: absolute;
+}
+
+.speaker1 {
+  top: 23.9rem;
+  right: 47.9rem;
+}
+
+.speaker2 {
+  top: 45.6rem;
+  right: 15.7rem;
 }
