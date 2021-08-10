@@ -259,6 +259,7 @@ header {
   line-height: 4.1rem;
   letter-spacing: 0.35rem;
   color: white;
+  font-weight: normal;
 }
 
 .red {
@@ -283,4 +284,72 @@ header {
 
 .perk:last-of-type hr {
   border-color: #FFB33F;
+}
+
+/* Reviews Sections Styles */
+
+.reviews {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1FE1E9;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 63.4rem;
+}
+
+.reviews h2 {
+  font-size: 7.4rem;
+  letter-spacing: 0.74rem;
+  color: white;
+}
+
+.reviewContainer {
+  display: flex;
+}
+
+.review {
+  width: 30.8rem;
+  margin-top: 6.6rem;
+  margin-right: 11.7rem;
+}
+
+.fa-star::before {
+  font-size: 3.2rem;
+  margin-right: 1.317rem;
+}
+
+.review h3{
+  font-size: 3.5rem;
+  color: white;
+  letter-spacing: 0.35rem;
+  margin-top: 2.591rem;
+  margin-bottom: 2.4rem;
+}
+
+.review p {
+  font-size: 3.5rem;
+  color: #191919;
+  letter-spacing: 0.35rem;
+  line-height: 4.1rem;
+}
+
+.reviews .tryNow {
+  color: #1FE1E9;
+}
+
+.smallSpeaker1, .smallSpeaker2 {
+  width: 49.3rem;
+  position: absolute;
+}
+
+.smallSpeaker1 {
+  left: 2.885rem;
+  top: 25.74rem;
+}
+
+.smallSpeaker2 {
+  left: 12.47rem;
+  top: 51.663rem;
 }
