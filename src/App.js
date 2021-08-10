@@ -5,6 +5,7 @@ import YellowSection from './components/YellowSection';
 import Perks from './components/Perks';
 import Reviews from './components/Reviews';
 import Purchase from './components/Purchase';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Perks/>
       <Reviews/>
       <Purchase/>
+      <Footer/>
     </div>
   );
 }
