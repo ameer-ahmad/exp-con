@@ -147,7 +147,7 @@ header {
   letter-spacing: 0.23rem;
 }
 
-.redSection .tryNow {
+.tryNow {
   width: 24.8rem;
   height: 6.2rem;
   border-radius: 7.9rem;
@@ -175,4 +175,35 @@ header {
 .speaker2 {
   top: 45.6rem;
   right: 15.7rem;
+}
+
+.yellowSection {
+  height: 100vh;
+  width: 100vw;
+  background-color: #FFB33F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-left: 90rem;
+}
+
+.yellowSection h2 {
+  font-size: 7.4rem;
+  letter-spacing: 0.74rem;
+  color: white;
+}
+
+.yellowSection h3 {
+  font-size: 5.1rem;
+  line-height: 6.1rem;
+  letter-spacing: 0.51rem;
+  font-weight: normal;
+  width: 83.1rem;
+  margin-top: 2.3rem;
+  margin-bottom: 4.7rem;
+}
+
+.yellowSection .seeDemo, .yellowSection .tryNow {
+  color: #FFB33F;
 }
