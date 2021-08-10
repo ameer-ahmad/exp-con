@@ -2,6 +2,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import RedSection from './components/RedSection';
 import YellowSection from './components/YellowSection';
+import Perks from './components/Perks';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero/>
       <RedSection/>
       <YellowSection/>
+      <Perks/>
     </div>
   );
 }

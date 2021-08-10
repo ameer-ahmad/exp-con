@@ -177,6 +177,8 @@ header {
   right: 15.7rem;
 }
 
+/* Yellow Section Styles */
+
 .yellowSection {
   height: 100vh;
   width: 100vw;
@@ -206,4 +208,79 @@ header {
 
 .yellowSection .seeDemo, .yellowSection .tryNow {
   color: #FFB33F;
+}
+
+/* Perks Section Styles */
+
+.perks {
+  height: 114vh;
+  width: 100vw;
+  background-color: #191919;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 17.4rem;
+}
+
+.perks h2 {
+  font-size: 7.4rem;
+  color: white;
+  letter-spacing: 0.74rem;
+}
+
+.perk {
+  width: 43.3rem;
+  margin-top: 8.35rem;
+}
+
+.perkContainer {
+  display: flex;
+}
+
+.perks hr {
+  width: 10.4rem;
+}
+
+.perk h3 {
+  font-size: 5.1rem;
+  line-height: 6.2rem;
+  letter-spacing: 0.51rem;
+  margin-top: 2.75rem;
+  margin-bottom: 2.8rem;
+}
+
+.perk:not(:last-of-type) {
+  margin-right: 17.6rem;
+}
+
+.perk p {
+  font-size: 3.5rem;
+  line-height: 4.1rem;
+  letter-spacing: 0.35rem;
+  color: white;
+}
+
+.red {
+  color: #D34848;
+}
+
+.blue {
+  color: #1FE1E9;
+}
+
+.yellow {
+  color: #FFB33F;
+}
+
+.perk:first-of-type hr {
+  border-color: #D34848;
+}
+
+.perk:nth-of-type(2) hr {
+  border-color: #1FE1E9;
+}
+
+.perk:last-of-type hr {
+  border-color: #FFB33F;
 }
