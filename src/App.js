@@ -4,6 +4,7 @@ import RedSection from './components/RedSection';
 import YellowSection from './components/YellowSection';
 import Perks from './components/Perks';
 import Reviews from './components/Reviews';
+import Purchase from './components/Purchase';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <YellowSection/>
       <Perks/>
       <Reviews/>
+      <Purchase/>
     </div>
   );
 }
