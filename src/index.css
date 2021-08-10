@@ -22,6 +22,10 @@ header {
   display: flex;
   align-items: center;
   margin-left: 8.3rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  color: white;
 }
 
 .menu-btn {
@@ -37,7 +41,7 @@ header {
 .menu-btn-burger {
   width: 100%;
   height: 0.6rem;
-  background-color: black;
+  background-color: white;
 }
 
 .menu-btn-burger::before,
@@ -46,7 +50,7 @@ header {
   position: absolute;
   width: 100%;
   height: 0.6rem;
-  background-color: black;
+  background-color: white;
 }
 
 .menu-btn-burger::before {
@@ -55,4 +59,46 @@ header {
 
 .menu-btn-burger::after {
   transform: translateY(1.4rem);
+}
+
+/* Hero Section styles */
+.hero {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./img/bgImage1.png');
+  background-size: cover;
+  background-position: 0 -20rem;
+}
+
+.hero h2 {
+  font-weight: bold;
+  font-size: 6.5rem;
+  letter-spacing: 0.65rem;
+}
+
+.hero p {
+  font-size: 3.2rem;
+  letter-spacing: 0.32rem;
+  line-height: 4.4rem;
+  width: 82rem;
+  margin-top: 3.2rem;
+  margin-bottom: 4.3rem;
+}
+
+.hero button {
+  background: linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%);
+  border: none;
+  color: white;
+  border-radius: 7.9rem;
+  font-size: 2.3rem;
+  letter-spacing: 0.23rem;
+  width: 28.4rem;
+  height: 7.9rem;
 }
