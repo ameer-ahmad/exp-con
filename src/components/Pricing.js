@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Pricing = () => {
     return (
@@ -19,7 +20,7 @@ const Pricing = () => {
                         <li>It's so good</li>
                         <li>Features</li>
                     </ul>
-                    <button>SELECT</button>
+                    <Link to="/payment"><button>SELECT</button></Link>
                 </div>
                 <div className="price">
                     <h4 className="plan">ADVANCED</h4>
