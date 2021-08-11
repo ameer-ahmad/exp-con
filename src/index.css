@@ -438,3 +438,16 @@ footer small {
   color: white;
   font-weight: normal;
 }
+
+/* Scroll Animations */
+
+.landing {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.hero, .redSection, .yellowSection, .perks, .reviews, .purchase {
+  scroll-snap-align: start;
+}
