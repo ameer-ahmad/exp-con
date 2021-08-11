@@ -1,9 +1,10 @@
 import Landing from './components/Landing';
+import PricingPage from './components/PricingPage';
 
 function App() {
   return (
     <div className="App">
-      <Landing/>
+      <PricingPage/>
     </div>
   );
 }

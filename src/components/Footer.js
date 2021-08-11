@@ -7,7 +7,7 @@ const Footer = () => {
                 <i class="fas fa-envelope"></i>
                 <p>support@experienceconcerts.co</p>
             </div>
-            <h4>EXP|CON</h4>
+            <h6>EXP|CON</h6>
             <small>2019 © All Rights Reserved | Speer Technologies Incorporated</small>
         </footer>
     )

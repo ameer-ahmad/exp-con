@@ -23,11 +23,12 @@ header {
   padding-top: 7.6rem;
   display: flex;
   align-items: center;
-  margin-left: 8.3rem;
+  padding-left: 8.3rem;
   position: fixed;
   top: 0;
   z-index: 100;
   color: white;
+  width: 100%;
 }
 
 .menu-btn {
@@ -404,7 +405,7 @@ footer {
 
 .email {
   margin-left: 13.9rem;
-  padding-top: 18.9rem;
+  padding-top: 14.9rem;
   display: flex;
   color: white;
   align-items: center;
@@ -420,7 +421,7 @@ footer {
   letter-spacing: 0.35rem;
 }
 
-footer h4 {
+footer h6 {
   text-align: center;
   font-size: 4.8rem;
   color: white;
@@ -441,13 +442,174 @@ footer small {
 
 /* Scroll Animations */
 
-.landing {
+.landing, .pricingPage {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
   overflow-x: hidden;
 }
 
-.hero, .redSection, .yellowSection, .perks, .reviews, .purchase {
+.hero, .redSection, .yellowSection, .perks, .reviews, .purchase, .pricing {
   scroll-snap-align: start;
 }
+
+footer {
+  scroll-snap-align: end;
+}
+
+/* Pricing Page Styles */
+
+.pricing {
+  height: 200vh;
+  width: 100vw;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 18.3rem;
+}
+
+.pricing h2 {
+  font-size: 7.4rem;
+  letter-spacing: 0.74rem;
+  color: white;
+  margin-bottom: 3.8rem;
+}
+
+.pricing h3 {
+  font-size: 5.1rem;
+  line-height: 8rem;
+  letter-spacing: 0.51rem;
+  color: white;
+  width: 155rem;
+  font-weight: normal;
+  margin-bottom: 20.4rem;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 12.7rem;
+
+}
+
+.price {
+  width: 43rem;
+}
+
+.pricing hr {
+  width: 14.1rem;
+}
+
+.plan {
+  font-size: 4.2rem;
+  letter-spacing: 0.42rem;
+  margin-bottom: 1.95rem;
+}
+
+.periodic {
+  font-size: 4.7rem;
+  letter-spacing: 0.47rem;
+  margin-top: 2.05rem;
+}
+
+.cost {
+  font-size: 13.4rem;
+  letter-spacing: 1.34rem;
+  margin-bottom: 4.2rem;
+}
+
+.pricing li {
+  font-size: 4.7rem;
+  letter-spacing: 0.47rem;
+  line-height: 6.4rem;
+  margin-left: 4rem;
+  color: white;
+  position: relative;
+}
+
+.pricing button {
+  width: 33.5rem;
+  height: 8.4rem;
+  border: none;
+  border-radius: 7.9rem;
+  margin-top: 3.8rem;
+  font-size: 2.4rem;
+  letter-spacing: 0.24rem;
+  font-weight: bold;
+  color: white;
+}
+
+.price:first-of-type h4 {
+  color: #D24848;
+}
+
+.price:nth-of-type(2) h4 {
+  color: #FFB33F;
+}
+
+.price:last-of-type h4 {
+  color: #1FE1E9;
+}
+
+.price:first-of-type hr {
+  border-color: #D24848;
+}
+
+.price:nth-of-type(2) hr {
+  border-color: #FFB33F;
+}
+
+.price:last-of-type hr {
+  border-color: #1FE1E9;
+}
+
+.price:first-of-type button {
+  background-color: #D24848;
+}
+
+.price:nth-of-type(2) button {
+  background-color: #FFB33F;
+}
+
+.price:last-of-type button {
+  background-color: #1FE1E9;
+}
+
+.price ul {
+  list-style: none;
+  padding: 0 0 0 1em;
+  margin: 0 0 1em 0;
+}
+
+.price li::before {
+  content: "\f001";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  font-size: 3rem;
+  left: -1.5em;
+  position: absolute;
+}
+
+.pricingPage .perks {
+  height: 100vh;
+  background-color: #D34848;
+}
+
+.pricingPage .perks button {
+  display: none;
+}
+
+.pricingPage .perk {
+  color: white;
+}
+
+.pricingPage .perk hr {
+  border-color: white;
+}
+
+.pricingPage .perk p {
+  color: #0B0B0B;
+}
+
