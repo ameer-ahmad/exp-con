@@ -69,15 +69,11 @@ header {
   height: 100vh;
   width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   color: white;
-  text-align: center;
   overflow: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./img/bgImage1.png');
   background-size: cover;
   background-position: 0 -20rem;
+  background: rgba(0, 0, 0, 1);
 }
 
 .hero h2 {
@@ -94,6 +90,21 @@ header {
   margin-top: 3.2rem;
   margin-bottom: 4.3rem;
   font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .content {
+  z-index: 100;
+  position: absolute;
+  top: 44.2rem;
+  text-align: center;
+  left: 26.2rem;
+}
+
+.hero img {
+  margin-top: -20rem;
+  filter: brightness(50%);
 }
 
 .hero button {
@@ -449,7 +460,7 @@ footer small {
   overflow-x: hidden;
 }
 
-.hero, .redSection, .yellowSection, .perks, .reviews, .purchase, .pricing {
+.mySwiper, .redSection, .yellowSection, .perks, .reviews, .purchase, .pricing {
   scroll-snap-align: start;
 }
 
@@ -794,4 +805,42 @@ footer {
 .round:last-of-type input:checked ~ .checkmark {
   background-color: #1FE1E9;
   border: none;
+}
+
+/* Hamburger Menu Popup styles */
+
+.burgerMenu {
+  background-color: #0B0B0B;
+  width: 68.2rem;
+  height: 68.2rem;
+  border-radius: 100rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: -1;
+  left: -10rem;
+  top: -22rem;
+  transform: scale(1);
+  transition: top 0.5s, left 0.5s, transform 0.5s;
+}
+
+.burgerMenu li {
+  list-style: none;
+  font-size: 4.7rem;
+  font-weight: bold;
+  line-height: 5.7rem;
+  cursor: pointer;
+}
+
+
+.burgerMenu ul {
+  margin-top: 25rem;
+  margin-left: -6rem;
+}
+
+.hide {
+  left: -34.2rem;
+  top: -34.2rem;
+  transform: scale(0);
 }
