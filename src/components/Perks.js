@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Perks = () => {
     return (
@@ -22,7 +23,7 @@ const Perks = () => {
                 </div>
             </div>
 
-            <button className="tryNow">TRY IT NOW</button>
+            <Link to="/pricing"><button className="tryNow">TRY IT NOW</button></Link>
 
         </div>
     )

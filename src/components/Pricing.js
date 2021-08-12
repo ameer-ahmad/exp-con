@@ -35,7 +35,7 @@ const Pricing = () => {
                         <li>It's so so good</li>
                         <li>More Features</li>
                     </ul>
-                    <button>SELECT</button>
+                    <Link to="/payment"><button>SELECT</button></Link>
                 </div>
                 <div className="price">
                     <h4 className="plan">PRO</h4>
@@ -50,7 +50,7 @@ const Pricing = () => {
                         <li>It's so so good</li>
                         <li>More Features</li>
                     </ul>
-                    <button>SELECT</button>
+                    <Link to="/payment"><button>SELECT</button></Link>
                 </div>
             </div>
         </div>

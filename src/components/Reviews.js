@@ -1,6 +1,7 @@
 import React from 'react';
 import smallSpeaker1 from '../img/smallSpeaker1.png';
 import smallSpeaker2 from '../img/smallSpeaker2.png';
+import {Link} from 'react-router-dom';
 
 const Reviews = () => {
     return (
@@ -43,7 +44,7 @@ const Reviews = () => {
             </div>
             <img src={smallSpeaker1} className="smallSpeaker1"/>
             <img src={smallSpeaker2} className="smallSpeaker2" />
-            <button className="tryNow">TRY IT NOW</button>
+            <Link to="/pricing"><button className="tryNow">TRY IT NOW</button></Link>
         </div>
     )
 }
