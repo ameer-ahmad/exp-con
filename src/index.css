@@ -844,3 +844,9 @@ footer {
   top: -34.2rem;
   transform: scale(0);
 }
+
+/* Custom Cursor */
+.cursor{
+  cursor: url('./img/cursor.png'), auto;
+}
+
